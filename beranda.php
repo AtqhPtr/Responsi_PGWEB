@@ -117,7 +117,6 @@
         <!-- Map -->
 		<div id="map"></div>
 
-        <br>
 
         <div style="margin-top: 80px;"></div>
 
@@ -125,41 +124,47 @@
         <h2>Informasi Kantor Pos</h2>
 
         <br>
+        <br>
+        <br>
 
         <div class="row row-cols-1 row-cols-md-4 g-4">
-        <div class="col">
-            <div class="card" style="max-width: 300px; margin: 0 auto;">
+        <div class="col" style="max-width: 300px; margin: 0 auto;">
+            <div class="card" style="background-color: rgba(255, 165, 0, 0.8); border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);">
             <img src="img/pos3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Kantor Pos Cengkareng</h5>
                 <p class="card-text"> Jl. Bangun Nusa Raya No.14 2, RT.9/RW.2, Cengkareng Tim., Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11730, Indonesia <br> <strong>Opens</strong> Sunday - Saturday</p>
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="max-width: 300px; margin: 0 auto;">
-            <img src="img/pos2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Kantor Pos Kemanggisan</h5>
-                <p class="card-text">Jl. Anggrek Rosliana No.27 4, RT.5/RW.5, Kemanggisan, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11480 <br><strong>Opens</strong> Monday - Saturday</p>
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="max-width: 300px; margin: 0 auto;">
-            <img src="img/pos7.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Kantor Pos Grogol</h5>
-                <p class="card-text"> JL. Dr. Susilo Raya, No. 1, RT.1/RW.3, Grogol, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11450 <br><strong>Opens</strong> Sunday - Saturday</p>
+                <a href="https://shorturl.at/IuMbO" class="btn btn-dark" target="_blank">Selengkapnya--</a>
             </div>
             </div>
         </div>
         <div class="col" style="max-width: 300px; margin: 0 auto;">
-            <div class="card">
+            <div class="card" style="background-color: rgba(255, 165, 0, 0.8); border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);">
+            <img src="img/pos2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kantor Pos Kemanggisan</h5>
+                <p class="card-text">Jl. Anggrek Rosliana No.27 4, RT.5/RW.5, Kemanggisan, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11480 <br><strong>Opens</strong> Monday - Saturday</p>
+                <a href="https://g.co/kgs/LD2rq25" class="btn btn-dark" target="_blank">Selengkapnya--</a>
+            </div>
+            </div>
+        </div>
+        <div class="col" style="max-width: 300px; margin: 0 auto;">
+            <div class="card" style="background-color: rgba(255, 165, 0, 0.8); border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);">
+            <img src="img/pos7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kantor Pos Grogol</h5>
+                <p class="card-text"> JL. Dr. Susilo Raya, No. 1, RT.1/RW.3, Grogol, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11450 <br><strong>Opens</strong> Sunday - Saturday</p>
+                <a href="https://g.co/kgs/SMa9fMG" class="btn btn-dark" target="_blank">Selengkapnya--</a>
+            </div>
+            </div>
+        </div>
+        <div class="col" style="max-width: 300px; margin: 0 auto;">
+            <div class="card" style="background-color: rgba(255, 165, 0, 0.8); border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);">
             <img src="img/pos6.JPG" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Kantor Pos Jakarta Barat Tegal Alur</h5>
                 <p class="card-text">Jl. Kamal Raya No.32, RT.3/RW.6, Cengkareng Bar., Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11730 <br><strong>Opens</strong> Sunday - Saturday</p>
+                <a href="https://g.co/kgs/Jh2vYnC" class="btn btn-dark" target="_blank">Selengkapnya--</a>
             </div>
             </div>
         </div>
@@ -186,11 +191,15 @@
             </div>
           </div>
 
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 		<script src="plugin/leaflet-search-master/leaflet-search-master/dist/leaflet-search.min.js"></script>
         <script src="plugin/Leaflet.defaultextent-master/Leaflet.defaultextent-master/dist/leaflet.defaultextent.js"></script>
+
+
+        <!-- MAP -->
         <script>
 			// Inisialisasi peta
 			var map = L.map("map").setView([-6.1615363,106.7570455], 12);
@@ -204,7 +213,7 @@
 			// Menambahkan basemap ke dalam peta
 			basemap.addTo(map);
 
-            // GeoJSON Point 
+            // GeoJSON Titik Layanan
             var kantor_pos = L.icon({
                             iconUrl: "img/titik.png", // icon marker
                             iconSize: [45, 45], // ukuran icon
@@ -223,15 +232,15 @@
                         if ($result->num_rows > 0) {
                             while ($row = $result->fetch_assoc()) {
                                 echo "L.marker([{$row['latitude']}, {$row['longitude']}], {icon: kantor_pos}).addTo(map)
-                                        .bindPopup('<strong>{$row['nama']}</strong><br>Telepon: {$row['telepon']}<br>Deskripsi: {$row['deskripsi']}<br>Metode Layanan: {$row['metode_layanan']}');\n";
+                                        .bindPopup('<strong>{$row['nama']}</strong><br>Telepon: {$row['telepon']}<br>Jenis barang: {$row['jenis_barang']}<br>Metode Layanan: {$row['metode_layanan']}');\n";
                             }
                         } else {
                             echo "console.log('No data available');\n";
                         }
-                        $conn->close();?>
+                        $conn->close();
+                        ?>
 
-
-            // GeoJSON Kantor Pos
+            // GeoJSON Titik Kantor Pos
             var kantor_pos = L.geoJSON(null, {
                 // Style
                 pointToLayer: function (feature, latlng) {
@@ -243,10 +252,7 @@
                             popupAnchor: [0, -48], // posisi popup terhadap icon
                             tooltipAnchor: [-16, -30], // posisi tooltip terhadap icon
                         }),
-                    });
-
-                
-},
+                    });},
 
                 // onEachFeature
                 onEachFeature: function (feature, layer) {
@@ -278,6 +284,7 @@
                 map.addLayer(kantor_pos); // Menambahkan GeoJSON Point Kantor Pos ke dalam peta
             });
 
+
             // GeoJSON Polyline Jalan
             map.createPane('panejalan');
             map.getPane("panejalan").style.zIndex = 401;
@@ -292,7 +299,6 @@
                         weight: 3,
                     };
                 },
-
                 // onEachFeature
                 onEachFeature: function (feature, layer) {
                         // variable popup content
@@ -363,6 +369,7 @@
                 map.addLayer(administrasi_desa); // Menambahkan GeoJSON Polygon Jumlah Penduduk ke dalam peta
             });
 
+
             // Control Layer
             var baseMaps = {
                 "Basemap": basemap,
@@ -377,6 +384,12 @@
             var controllayer = L.control.layers(baseMaps, overlayMaps);
             controllayer.addTo(map);
 
+            // Tambahkan skala ke peta
+            L.control.scale({
+                metric: true,   // Skala dalam meter/kilometer
+                imperial: false // Nonaktifkan skala imperial (mil/feet)
+            }).addTo(map);
+
             // Legend Control
             var legend = L.control({ position: "bottomright" });
 
@@ -388,7 +401,7 @@
                 div.style.borderRadius = "5px";
 
                 div.innerHTML =
-                    "<h4>Legenda</h4>" +
+                    "<h5>Legenda</h5>" +
                     "<div><i style='background: url(img/post.png); display: inline-block; width: 20px; height: 20px; background-size: contain;'></i> Kantor Pos</div>" +
                     "<div><i style='background: url(img/titik.png); display: inline-block; width: 20px; height: 20px; background-size: contain;'></i> Titik Lokasi Cust</div>" +
                     "<div><i style='background: red; width: 20px; height: 3px; display: inline-block;'></i> Jalan</div>" +

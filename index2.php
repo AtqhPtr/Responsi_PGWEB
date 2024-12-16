@@ -71,11 +71,11 @@
 <div style="margin-top: 80px;"></div>
 
 <div id="container">
-    <div id="table-container" class="mx-auto col-lg-8 col-md-10 col-sm-12">
+    <div id="table-container" class="mx-auto col-lg-10 col-md-12 col-sm-12" style="overflow-x: auto;">
         <h2 class="text-center mb-4">Riwayat Order</h2>
 
-        <table class="table table-striped">
-        <thead>
+        <table class="table table-striped" style="width: 100%; border-collapse: collapse;">
+            <thead>
             <tr>
             <th>ID</th>
             <th>Nama</th>
