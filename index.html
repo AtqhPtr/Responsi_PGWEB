@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        .background-carousel {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            animation: backgroundChange 15s infinite alternate;
+            background-image: url('img/jkt.jpg'); /* Ganti dengan path gambar Anda */
+            background-size: cover;
+            background-position: center;
+            opacity: 9; /* Membuat background lebih gelap */
+        }
+
+        @keyframes backgroundChange {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            position: relative;
+            max-width: 800px;
+            padding: 20px;
+            margin: auto;
+            text-align: center;
+            color: #fff;
+        }
+
+        .logo {
+            margin-bottom: 10px;
+        }
+        .logo img {
+            width: 350px;
+            height: auto;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .btn {
+            background-color: #fff;
+            color: #070707; 
+            border: none;
+            padding: 15px 30px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #f28d08;
+            color: #fff;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="background-carousel"></div>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo.png" alt="SiPRO Logo">
+        </div>
+        <h1>Welcome to Our SiPRO!</h1>
+        <p>SIPRO, platform digital yang mempermudah pengelolaan dan pengumpulan material daur ulang. Dengan SIPRO, dapat menemukan pos recycling terdekat, mengatur jadwal pengiriman material, dan memantau kontribusi terhadap lingkungan secara real-time.</p>
+        <div class="button-container">
+            <a href="beranda.php" class="btn">Go to Main Page</a>
+        </div>
+    </div>
+</body>
+</html>
