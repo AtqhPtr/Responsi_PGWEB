@@ -12,4 +12,22 @@ Website SiPRO ini merupakan aplikasi web yang dirancang untuk memvisualisasikan 
 Geoportal Jakarta https://jakartasatu.jakarta.go.id/ 
 Indonesia Geospasial https://www.indonesia-geospasial.com/ 
 
+# Fitur Web
+~ Landing Page
+![Landing Page](landing.png)
+
+~Home Page
+![Home Page](peta.png)
+![Home Page](info.png)
+
+~ Order Page
+![Order Page](form.png)
+
+~ History Page
+![History Page](tabel.png)
+
+~ Profile Page
+![Profile Page](tentang.png)
+
+
 
